@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/06/2016, 22:15:03
+    Author     : Eder Rodrigues
+*/
+
+body{
+    font-size: 11px;
+}
+#user{
+    
+}
+.dropdown-toggle{
+    top: 0px;
+    font-size: 12px;
+}
+#banner{
+    margin-top: -4px;
+    height: 40px;
+    width: 80px;
+}
+#loader{
+    z-index: 1;
+    margin-top: -50px;
+    margin-left: 650px;
+    height: 40px;
+    width: 40%;
+}
+.gifLoader{
+    height: 100px;
+    width: 100px;
+}
+
+.dropdown{
+    margin-top: 5px;
+}
+
+.panel{
+    width: 100%;
+}
+.form-control{
+    width: 100%;
+}
+
+#msgError{
+    background: #ff3333;
+    color: black;
+}
+#msgSuccess{
+    background: #85e085;
+    color: black;
+    border-radius: 5px;
+}
+
+.sizeInput{
+    width: 150px;
+}
+#dtNasc{
+    width: 30%;
+}
+.table-hover tbody tr:hover td{
+    /*    background: #bce8f1;*/
+    background: #9acfea;
+}
+.headerTable{
+    background: #428bca;
+    color: white;
+}
+.navbar-default {
+    /*background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
+    background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);  
+    background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
+    border-color: #E7E7E7;*/
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: black;
+    /*background-color: #D5D5D5;*/
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+    background: -moz-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+    background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+}
+
+/* caret */
+.nav-tabs>#tabs>a:hover{
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+    background: -moz-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+    background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+}
+.nav-tabs>#tabs>a{
+
+    border: 1px solid #ccc;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+    background: -moz-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+    background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); 
+
+    border-bottom-color: transparent;
+} 
+.panel-default > .panel-heading{
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 92%,rgba(237,237,237,1) 100%);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 92%,rgba(237,237,237,1) 100%);
+    background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 92%,rgba(237,237,237,1) 100%);
+}
+.panel-default > .panel-body{
+    background: #ffffff
+}
+.border{
+    border: 1px solid #87CEEB;
+    border-radius: 2px;
+    padding: 15px;
+
+}
+#setor{
+    position: relative;
+    left: 650px;
+    color: black;
+    font-size: 18px;
+
+}
+#title{
+    font-size: 12px;
+}
+
+#backTop{
+    position: relative;
+    left: 500px;
+    border-radius: 90px;
+}
+#removeBottom{
+    position: absolute;
+    left: 1250px;
+    /*left: 1150px;*/
+    margin-top: -35px;
+}
